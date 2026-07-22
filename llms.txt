@@ -1,0 +1,29 @@
+# Deegdokter
+
+> Deegdokter is een Nederlandse bak-app (Android en iOS) die brood- en
+> pizzadeeg exact uitrekent in bakkerspercentages, de bakdag plant met
+> meldingen op het juiste moment, en een diagnose stelt als een baksel
+> mislukt. Gemaakt voor thuisbakkers in Nederland en België.
+
+Kernfuncties:
+- Deegcalculator: 50+ authentieke stijlen (Napolitaanse pizza, desembrood,
+  stokbrood, krentenbollen, stromboli, panzerotti, Chicago deep dish e.a.),
+  met automatische meelkeuze op eiwitpercentage en W-waarde-indicatie.
+- Deegwizard: zeven vragen en het recept staat klaar, gepland om de dag
+  van de gebruiker heen, desgewenst met weersvoorspelling voor de rijsplek.
+- Bloemanalyse: past het meel bij het recept? Krachtmeter, hydratatieband
+  en "De dokter merkt op"-inzichten.
+- Bakdag: tijdschema, bakstap-meldingen, Bakmodus met deegtemperatuur-
+  controle en rijscontrole (poke-test) die het schema bijstuurt.
+- De Deegdokter: diagnose-boom voor mislukte baksels, kruimatlas (visuele
+  kruimdiagnose), techniekkaarten.
+- Desemkliniek: 14-dagen desemstarter-gids, starterdossier waarin de app
+  het ritme van de starter leert, en Starter-EHBO voor zieke starters.
+- Broodbakmachine-ondersteuning (deegprogramma) waar het deeg dat toelaat.
+
+Privacy: geen account, geen advertenties, geen tracking; alles blijft op
+het toestel. Contact: deegdokter@gmail.com.
+
+## Links
+- [Website](https://deegdokter.nl/)
+- [Privacybeleid](https://deegdokter.nl/deegdokter-privacy/)
