@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deegdokter — jouw bakcoach voor brood, pizza en bolletjes</title>
+<meta name="description" content="Deegdokter rekent je deeg uit, plant je bakdag en helpt als het misgaat. 50+ authentieke stijlen, bakstap-meldingen en een ingebouwde deegdokter. Geen account, geen advertenties.">
+<link rel="icon" type="image/png" href="img/icoon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --creme: #F7F3EC; --kaart: #FFFFFF; --rand: #E8E1D5;
+    --inkt: #262119; --inkt-zacht: #77705F;
+    --blauw: #2B4C9B; --terra: #D95B43; --terra-zacht: #FBECE7;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif; background: var(--creme);
+    color: var(--inkt); line-height: 1.65; -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; text-wrap: balance; }
+  .wrap { max-width: 1020px; margin: 0 auto; padding: 0 24px; }
+
+  header { padding: 72px 0 56px; text-align: center; }
+  .icoon { width: 96px; height: 96px; border-radius: 24px; box-shadow: 0 8px 28px rgba(38,33,25,.14); }
+  h1 { font-size: clamp(2.4rem, 6vw, 3.6rem); font-weight: 700; margin: 22px 0 10px; }
+  .tagline { font-size: clamp(1.1rem, 2.6vw, 1.35rem); color: var(--inkt-zacht); max-width: 34em; margin: 0 auto; }
+  .cta-rij { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+  .cta {
+    display: inline-block; padding: 13px 26px; border-radius: 99px;
+    font-weight: 700; font-size: .98rem; text-decoration: none;
+  }
+  .cta-terra { background: var(--terra); color: #fff; }
+  .cta-terra:hover { background: #C24A33; }
+  .cta-stil { border: 2px solid var(--rand); color: var(--inkt-zacht); background: var(--kaart); }
+  .binnenkort { margin-top: 12px; font-size: .85rem; color: var(--inkt-zacht); }
+
+  .strook { background: var(--kaart); border-top: 1px solid var(--rand); border-bottom: 1px solid var(--rand); padding: 64px 0; }
+  .sectiekop { text-align: center; font-size: clamp(1.6rem, 4vw, 2.1rem); margin-bottom: 8px; }
+  .sectiesub { text-align: center; color: var(--inkt-zacht); max-width: 40em; margin: 0 auto 40px; }
+
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+  .feature {
+    background: var(--creme); border: 1px solid var(--rand); border-radius: 20px; padding: 24px;
+  }
+  .feature h3 { font-size: 1.12rem; margin: 0 0 6px; }
+  .feature p { font-size: .94rem; color: var(--inkt-zacht); }
+  .f-emoji { font-size: 1.6rem; display: block; margin-bottom: 10px; }
+
+  .schermen { padding: 64px 0; }
+  .schermen-rij { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-top: 36px; }
+  .schermen-rij img {
+    width: min(280px, 78vw); border-radius: 22px; border: 1px solid var(--rand);
+    box-shadow: 0 14px 38px rgba(38,33,25,.13);
+  }
+
+  .dokter { background: var(--terra-zacht); border-top: 1px solid var(--rand); border-bottom: 1px solid var(--rand); padding: 64px 0; }
+  .dokter-kaart {
+    max-width: 620px; margin: 28px auto 0; background: var(--kaart); border-radius: 20px;
+    border-left: 4px solid var(--terra); padding: 24px 28px; box-shadow: 0 6px 22px rgba(38,33,25,.07);
+  }
+  .dokter-kaart .lbl { font-size: .75rem; font-weight: 700; letter-spacing: .06em; color: var(--inkt-zacht); }
+  .dokter-kaart p { margin-top: 8px; font-size: .97rem; }
+
+  .privacy { padding: 64px 0; text-align: center; }
+  .privacy .badges { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; margin-top: 22px; }
+  .badge {
+    background: var(--kaart); border: 1px solid var(--rand); border-radius: 99px;
+    padding: 8px 18px; font-size: .9rem; font-weight: 600; color: var(--inkt-zacht);
+  }
+
+  footer { border-top: 1px solid var(--rand); padding: 36px 0 48px; text-align: center; font-size: .9rem; color: var(--inkt-zacht); }
+  footer a { color: var(--blauw); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+  .voetrij { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 14px; }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <img class="icoon" src="img/icoon.png" alt="Deegdokter-app-icoon" width="96" height="96">
+  <h1>Deegdokter</h1>
+  <p class="tagline">Jouw bakcoach voor brood, pizza en bolletjes: rekent je deeg uit, plant je bakdag — en helpt als het misgaat.</p>
+  <div class="cta-rij">
+    <a class="cta cta-terra" href="mailto:deegdokter@gmail.com?subject=Ik%20wil%20b%C3%A8tatester%20worden&body=Hoi!%20Ik%20wil%20graag%20meedoen%20met%20de%20b%C3%A8ta%20van%20Deegdokter.%0AMijn%20Gmail-adres%3A%20">Word bètatester</a>
+    <span class="cta cta-stil">Binnenkort in Google Play &amp; de App&nbsp;Store</span>
+  </div>
+  <p class="binnenkort">Nu in gesloten bèta voor Android en iPhone — meld je aan met je Gmail-adres.</p>
+</header>
+
+<section class="strook">
+  <div class="wrap">
+    <h2 class="sectiekop">Rekent als een bakker, plant als een dokter</h2>
+    <p class="sectiesub">Kies uit 50+ authentieke stijlen — van Napolitaanse pizza tot desembrood en krentenbollen — en de app rekent je exacte recept uit, afgestemd op jouw meel en jouw agenda.</p>
+    <div class="features">
+      <div class="feature"><span class="f-emoji">🧮</span><h3>Bakkerspercentages, gewoon in grammen</h3><p>Bloem, water, zout en gist exact uitgerekend — met automatisch het juiste meel per recept, voordeeg (poolish/biga) en desem.</p></div>
+      <div class="feature"><span class="f-emoji">🧙</span><h3>De Deegwizard</h3><p>Zeven korte vragen — wat bak je, wanneer wil je eten, hoe warm is je keuken — en je recept staat klaar, gepland óm je dag heen.</p></div>
+      <div class="feature"><span class="f-emoji">📊</span><h3>Bloemanalyse</h3><p>Zie in één oogopslag of jouw meel bij je recept past: krachtmeter, hydratatiering en meelpaspoort. De dokter merkt op wat er beter kan — vóórdat je deeg mislukt.</p></div>
+      <div class="feature"><span class="f-emoji">⏰</span><h3>Bakdag zonder stress</h3><p>Tijdschema op de klok, meldingen op het moment dat je deeg je nodig heeft, en een Bakmodus die je stap voor stap door je bakdag loodst.</p></div>
+      <div class="feature"><span class="f-emoji">🩺</span><h3>De Deegdokter</h3><p>Mislukt er iets? Twee gerichte vragen en je hebt een diagnose met een concrete fix. Plus een kennisbank vol bakkersantwoorden en techniekkaarten.</p></div>
+      <div class="feature"><span class="f-emoji">📓</span><h3>Word elke bak beter</h3><p>Leg je resultaten vast in het bakdagboek, volg je desemstarter in het starterdossier en zie patronen die geen recept je kan vertellen.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="schermen wrap">
+  <h2 class="sectiekop">Zo ziet dat eruit</h2>
+  <div class="schermen-rij">
+    <img src="img/screen1.jpg" alt="Deegdokter: welkomstscherm met de deegwizard" loading="lazy">
+    <img src="img/screen2.jpg" alt="Deegdokter: de calculator met bloemanalyse" loading="lazy">
+    <img src="img/screen3.jpg" alt="Deegdokter: het recept met tijdschema" loading="lazy">
+  </div>
+</section>
+
+<section class="dokter">
+  <div class="wrap">
+    <h2 class="sectiekop">Er kijkt een dokter mee</h2>
+    <p class="sectiesub">Elke bakker heeft weleens een deeg dat niet doet wat het belooft. Deegdokter kijkt mee, stelt een diagnose en vertelt wat je de volgende keer anders doet.</p>
+    <div class="dokter-kaart">
+      <span class="lbl">🩺 DE DOKTER MERKT OP</span>
+      <p>"55% effectief vocht zit onder de sweet spot van deze bloem, en tóch klopt het: dit recept vraagt bewust een stevig, droog deeg dat zijn vorm houdt. Niets aanpassen dus — het stugge rollen hoort erbij."</p>
+    </div>
+  </div>
+</section>
+
+<section class="privacy wrap">
+  <h2 class="sectiekop">Privé, zoals bakken hoort te zijn</h2>
+  <div class="badges">
+    <span class="badge">Geen account</span>
+    <span class="badge">Geen advertenties</span>
+    <span class="badge">Geen tracking</span>
+    <span class="badge">Alles blijft op je toestel</span>
+  </div>
+</section>
+
+<footer>
+  <div class="voetrij">
+    <a href="https://deegdokter.github.io/deegdokter-privacy/">Privacybeleid</a>
+    <a href="mailto:deegdokter@gmail.com">deegdokter@gmail.com</a>
+  </div>
+  <div>© 2026 Deegdokter · Gemaakt in Nederland, gebakken in eigen oven</div>
+</footer>
+
+</body>
+</html>
