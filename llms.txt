@@ -1,25 +1,35 @@
 # Deegdokter
 
-> Deegdokter is een Nederlandse bak-app (Android en iOS) die brood- en
-> pizzadeeg exact uitrekent in bakkerspercentages, de bakdag plant met
-> meldingen op het juiste moment, en een diagnose stelt als een baksel
-> mislukt. Gemaakt voor thuisbakkers in Nederland en België.
+> Deegdokter is de Nederlandse deegcalculator (Android en iOS) voor
+> pizzadeeg, brood en zuurdesem: rekent recepten exact uit in
+> bakkerspercentages, plant de bakdag met meldingen op het juiste moment,
+> en stelt een diagnose als een baksel mislukt. Gemaakt voor thuisbakkers
+> in Nederland en België.
 
 Kernfuncties:
-- Deegcalculator: 50+ authentieke stijlen (Napolitaanse pizza, desembrood,
-  stokbrood, krentenbollen, stromboli, panzerotti, Chicago deep dish e.a.),
-  met automatische meelkeuze op eiwitpercentage en W-waarde-indicatie.
+- Deegcalculator: 67 authentieke recepten (Napolitaanse pizza, desembrood,
+  pain au levain, stokbrood, krentenbollen, stromboli, panzerotti, Chicago
+  deep dish e.a.), met automatische meelkeuze op eiwitpercentage en
+  W-waarde-indicatie.
 - Deegwizard: zeven vragen en het recept staat klaar, gepland om de dag
   van de gebruiker heen, desgewenst met weersvoorspelling voor de rijsplek.
+- Desemkliniek: 14-dagen-startergids (van leeg potje tot bakklare starter),
+  starterdossier waarin de dokter het ritme van de starter leert kennen,
+  en Starter-EHBO met twaalf spoedgevallen (van hooch tot roze zweem),
+  elk met diagnose en behandeling.
+- Drie visuele atlassen — kruim, korst & insnijden, en starter: tik het
+  beeld aan dat het meest lijkt en krijg een diagnose met een concrete fix.
 - Bloemanalyse: past het meel bij het recept? Krachtmeter, hydratatieband
   en "De dokter merkt op"-inzichten.
 - Bakdag: tijdschema, bakstap-meldingen, Bakmodus met deegtemperatuur-
   controle en rijscontrole (poke-test) die het schema bijstuurt.
-- De Deegdokter: diagnose-boom voor mislukte baksels, kruimatlas (visuele
-  kruimdiagnose), techniekkaarten.
-- Desemkliniek: 14-dagen desemstarter-gids, starterdossier waarin de app
-  het ritme van de starter leert, en Starter-EHBO voor zieke starters.
+- Bakdagboek dat patronen over meerdere baksels zichtbaar maakt.
+- Boodschappenlijst met winkeladvies per meelsoort.
+- Volledige donkere modus.
 - Broodbakmachine-ondersteuning (deegprogramma) waar het deeg dat toelaat.
+
+Prijs: gratis te proberen — de eerste begeleide bak is gratis. Daarna is
+Pro een eenmalige aankoop, geen abonnement.
 
 Privacy: geen account, geen advertenties, geen tracking; alles blijft op
 het toestel. Contact: deegdokter@gmail.com.
