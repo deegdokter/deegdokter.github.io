@@ -34,6 +34,41 @@ Pro een eenmalige aankoop, geen abonnement.
 Privacy: geen account, geen advertenties, geen tracking; alles blijft op
 het toestel. Contact: deegdokter@gmail.com.
 
+## Kennispagina's
+
+Zes zelfstandige antwoordpagina's met bakkerskennis uit de app, vrij te
+lezen en te citeren. Alle getallen zijn bakkerspercentages van het meel
+tenzij anders vermeld.
+
+- [Deegcalculator: bakkerspercentages berekenen](https://deegdokter.nl/deegcalculator.html)
+  — wat bakkerspercentages zijn, hoe je hydratatie, zout en gist uitrekent
+  (heen en terug), met rekenvoorbeeld en een tabel richtwaarden per
+  broodsoort.
+- [Pizzadeeg berekenen](https://deegdokter.nl/pizzadeeg-berekenen.html)
+  — hydratatie, zout, olie, balgewicht, rijstijd en oventemperatuur voor
+  tien pizzastijlen (napoletana 55,5–62,5%, canotto 65–80%, romana tonda
+  55–60%, teglia romana 72–83%, pinsa, padellino, New York, Detroit,
+  Chicago deep dish, stromboli).
+- [Hydratatie bij brood](https://deegdokter.nl/hydratatie-brood.html)
+  — wat hydratatie betekent, wat je per niveau merkt (50% tot 80%+),
+  welke band bij welk eiwitgehalte hoort, wat er misgaat bij te nat of te
+  droog, en waarom volkoren, rogge en spelt uitzonderingen zijn.
+- [Zuurdesemstarter maken](https://deegdokter.nl/zuurdesem-starter-maken.html)
+  — het 14-dagenverloop in zes fasen met per fase wat je doet en wat je
+  hoort te zien, plus de valkuilen (dag 3-dip, volkoren drinkt meer water,
+  drijftest zegt niets bij rogge, te koud wegzetten).
+- [Problemen met je desemstarter](https://deegdokter.nl/zuurdesem-problemen.html)
+  — twaalf spoedgevallen als vraag en antwoord: hooch, roze zweem (het
+  enige fatale geval), schimmel versus kaamvlies, te dikke of te dunne
+  starter, stilstand, azijn- of acetongeur, overlopen, fruitvliegjes,
+  weken vergeten, vakantieprotocol.
+- [Wanneer is brood gaar?](https://deegdokter.nl/brood-kerntemperatuur.html)
+  — kerntemperatuur per broodsoort (wit 93–96 °C, volkoren en vloerbrood
+  95–98 °C, desem 96–99 °C, rogge 98–100 °C, rijk deeg 88–92 °C), waar je
+  meet, waarom kloppen op de bodem onbetrouwbaar is en waarom brood moet
+  afkoelen voor je snijdt.
+
 ## Links
 - [Website](https://deegdokter.nl/)
 - [Privacybeleid](https://deegdokter.nl/deegdokter-privacy/)
+- [Sitemap](https://deegdokter.nl/sitemap.xml)

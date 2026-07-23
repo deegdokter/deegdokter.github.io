@@ -1,0 +1,99 @@
+/* Deegdokter — huisstijl voor de kennispagina's.
+   Basis identiek aan de inline stijl van index.html, aangevuld met
+   artikel-, tabel- en navigatie-onderdelen. */
+
+:root {
+  --creme: #F7F3EC; --kaart: #FFFFFF; --rand: #E8E1D5;
+  --inkt: #262119; --inkt-zacht: #77705F;
+  --blauw: #2B4C9B; --terra: #D95B43; --terra-zacht: #FBECE7;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  font-family: 'Inter', system-ui, sans-serif; background: var(--creme);
+  color: var(--inkt); line-height: 1.65; -webkit-font-smoothing: antialiased;
+}
+h1, h2, h3 { font-family: 'Fraunces', Georgia, serif; text-wrap: balance; }
+.wrap { max-width: 1020px; margin: 0 auto; padding: 0 24px; }
+
+/* Navigatie */
+.topbalk { background: var(--kaart); border-bottom: 1px solid var(--rand); }
+.topbalk .wrap {
+  display: flex; align-items: center; gap: 18px; flex-wrap: wrap;
+  padding-top: 12px; padding-bottom: 12px;
+}
+.merk { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--inkt); font-weight: 700; }
+.merk img { width: 32px; height: 32px; border-radius: 9px; }
+.topbalk nav { margin-left: auto; display: flex; gap: 18px; flex-wrap: wrap; }
+.topbalk nav a { color: var(--inkt-zacht); text-decoration: none; font-size: .92rem; font-weight: 600; }
+.topbalk nav a:hover { color: var(--blauw); text-decoration: underline; }
+
+.kruimel { font-size: .85rem; color: var(--inkt-zacht); padding-top: 22px; }
+.kruimel a { color: var(--blauw); text-decoration: none; }
+.kruimel a:hover { text-decoration: underline; }
+
+/* Artikel */
+.artikel { max-width: 760px; margin: 0 auto; padding: 8px 24px 56px; }
+.artikel h1 { font-size: clamp(2rem, 5vw, 2.9rem); font-weight: 700; margin: 14px 0 12px; }
+.artikel .lead { font-size: 1.12rem; color: var(--inkt-zacht); margin-bottom: 8px; }
+.artikel h2 { font-size: clamp(1.4rem, 3.4vw, 1.8rem); margin: 40px 0 12px; }
+.artikel h3 { font-size: 1.12rem; margin: 26px 0 8px; }
+.artikel p { margin-bottom: 14px; }
+.artikel ul, .artikel ol { margin: 0 0 16px 22px; }
+.artikel li { margin-bottom: 8px; }
+.artikel a { color: var(--blauw); }
+.artikel strong { font-weight: 700; }
+
+/* Tabellen */
+.tabelhouder { overflow-x: auto; margin: 18px 0 22px; -webkit-overflow-scrolling: touch; }
+table { border-collapse: collapse; width: 100%; min-width: 520px; background: var(--kaart); font-size: .93rem; }
+caption { caption-side: bottom; text-align: left; font-size: .84rem; color: var(--inkt-zacht); padding-top: 10px; }
+th, td { border: 1px solid var(--rand); padding: 9px 12px; text-align: left; vertical-align: top; }
+thead th { background: var(--terra-zacht); font-weight: 700; }
+tbody tr:nth-child(even) td { background: #FCFAF6; }
+
+/* Kaders */
+.kader {
+  background: var(--kaart); border: 1px solid var(--rand); border-left: 4px solid var(--terra);
+  border-radius: 14px; padding: 18px 22px; margin: 22px 0;
+}
+.kader .lbl { font-size: .75rem; font-weight: 700; letter-spacing: .06em; color: var(--inkt-zacht); display: block; margin-bottom: 6px; }
+.kader p:last-child { margin-bottom: 0; }
+
+.rekenblok {
+  background: var(--kaart); border: 1px solid var(--rand); border-radius: 14px;
+  padding: 18px 22px; margin: 22px 0;
+}
+.rekenblok p:last-child, .rekenblok ul:last-child { margin-bottom: 0; }
+
+/* Vraag & antwoord */
+.qa { border-top: 1px solid var(--rand); padding-top: 18px; margin-top: 24px; }
+.qa h2 { margin-top: 0; }
+
+/* App-verwijzing */
+.app-slot {
+  background: var(--terra-zacht); border: 1px solid var(--rand); border-radius: 18px;
+  padding: 22px 24px; margin: 34px 0 8px;
+}
+.app-slot h2 { margin-top: 0; font-size: 1.2rem; }
+.app-slot p:last-child { margin-bottom: 0; }
+
+/* Verwante pagina's */
+.verwant { margin-top: 34px; }
+.verwant h2 { font-size: 1.15rem; margin-bottom: 12px; }
+.verwant ul { list-style: none; margin-left: 0; }
+.verwant li { margin-bottom: 8px; }
+
+/* Kennisblok (ook gebruikt op de homepage) */
+.kennis-kaarten { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+.kennis-kaart {
+  background: var(--kaart); border: 1px solid var(--rand); border-radius: 20px;
+  padding: 22px; text-decoration: none; color: inherit; display: block;
+}
+.kennis-kaart:hover { border-color: var(--terra); }
+.kennis-kaart h3 { font-size: 1.06rem; margin: 0 0 6px; color: var(--blauw); }
+.kennis-kaart p { font-size: .92rem; color: var(--inkt-zacht); margin: 0; }
+
+footer { border-top: 1px solid var(--rand); padding: 36px 0 48px; text-align: center; font-size: .9rem; color: var(--inkt-zacht); }
+footer a { color: var(--blauw); text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+.voetrij { display: flex; gap: 22px; justify-content: center; flex-wrap: wrap; margin-bottom: 14px; }
